@@ -1,4 +1,4 @@
-com/academyofcode/SonarSweep.java
- com.academyofcode.SonarSweep
-com/academyofcode/utils/FileUtils.java
- com.academyofcode.utils.FileUtils
+com/academyofcode/solutions/DayOne/SonarSweep.java
+ com.academyofcode.solutions.DayOne.SonarSweep
+utils/FileUtils.java
+ utils.FileUtils

@@ -1,22 +1,20 @@
-package com.academyofcode;
+package com.academyofcode.solutions.DayOne;
 
+import utils.FileUtils;
 import com.google.common.base.Charsets;
 import com.google.common.io.Files;
 
 import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
-import java.net.URL;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.academyofcode.utils.FileUtils.getFileFromResource;
-
 public class SonarSweep {
 
     public static void main(String[] args) throws IOException, URISyntaxException {
-        File file = getFileFromResource("sonar-sweep-input");
+        File file = FileUtils.getFileFromResource("DayOne/sonar-sweep-input");
         String[] input = Files.asCharSource(file, Charsets.UTF_8).read()
                 .split("\r\n");
 

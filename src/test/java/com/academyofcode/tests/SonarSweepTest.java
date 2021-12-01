@@ -1,5 +1,6 @@
-package com.academyofcode;
+package com.academyofcode.tests;
 
+import com.academyofcode.solutions.DayOne.SonarSweep;
 import com.google.common.base.Charsets;
 import com.google.common.io.Files;
 import org.junit.jupiter.api.BeforeAll;
@@ -12,7 +13,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.academyofcode.utils.FileUtils.getFileFromResource;
+import static utils.FileUtils.getFileFromResource;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SonarSweepTest {
@@ -21,7 +22,7 @@ public class SonarSweepTest {
 
     @BeforeAll
     public static void setUp() throws URISyntaxException, IOException {
-        File file = getFileFromResource("sonar-sweep-input");
+        File file = getFileFromResource("DayOne/sonar-sweep-input");
         String[] input = Files.asCharSource(file, Charsets.UTF_8).read()
                 .split("\r\n");
         data = Arrays.stream(input)

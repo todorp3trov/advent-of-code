@@ -1,6 +1,6 @@
-package com.academyofcode.utils;
+package utils;
 
-import com.academyofcode.SonarSweep;
+import com.academyofcode.solutions.DayOne.SonarSweep;
 
 import java.io.File;
 import java.net.URISyntaxException;

@@ -1,2 +1,2 @@
-com/academyofcode/SonarSweepTest.java
- com.academyofcode.SonarSweepTest
+com/academyofcode/tests/SonarSweepTest.java
+ com.academyofcode.tests.SonarSweepTest
