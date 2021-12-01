@@ -1,4 +1,0 @@
-com/academyofcode/solutions/DayOne/SonarSweep.java
- com.academyofcode.solutions.DayOne.SonarSweep
-utils/FileUtils.java
- utils.FileUtils

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.academyofcode.tests.SonarSweepTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-12-01T19:47:09" hostname="SAG-1KVF373" time="0.012">
-  <properties/>
-  <testcase name="shouldGetIncreasingDepthMeasurementsInSlidingWindow()" classname="com.academyofcode.tests.SonarSweepTest" time="0.011"/>
-  <testcase name="shouldGetIncreasingDepthMeasurements()" classname="com.academyofcode.tests.SonarSweepTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
