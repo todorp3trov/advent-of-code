@@ -1,0 +1,2 @@
+com/academyofcode/SonarSweepTest.java
+ com.academyofcode.SonarSweepTest
